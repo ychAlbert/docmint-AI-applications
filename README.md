@@ -16,13 +16,41 @@ Welcome to the Docmint AI Functionality Library readme! This library offers powe
   - Convert image tables to Markdown format (`/to_markdown_table`).
   - Process images for OCR and retrieve text and images (`/ocr_process`).
 
+## Requirements 🛠️
+
+- Python 3.8 or higher.
+- An internet connection to download and use Hugging Face models.
+
 ## Installation 📦
 
-Before integrating this library, make sure Flask is installed in your Python environment:
+Clone the repository to your local machine:
 
-```bash
-pip install flask
 ```
+git clone https://github.com/ychAlbert/AI-components.git
+```
+
+Then you can run:
+
+```
+pip install -r requirement.txt
+```
+
+
+## Dependencies 📌
+
+To ensure full functionality of the **AI-function-code-for-online-documentation**, we rely on a suite of packages. Below is an outline of our primary dependencies:
+
+- **LangChain**: Our core dependency for managing knowledge bases, document loading, text splitting, and integrating machine learning models. 
+ 
+    - `langchain.vectorstores.Chroma`
+    - `langchain.document_loaders.PyMuPDFLoader, UnstructuredMarkdownLoader`
+    - `langchain.text_splitter.RecursiveCharacterTextSplitter`
+    - `langchain.embeddings.huggingface.HuggingFaceEmbeddings`
+    - `langchain.chains.RetrievalQA`
+    - `langchain.prompts.PromptTemplate`
+
+- **dotenv**: For loading environment variables safely.
+
 
 ## Usage ✍️
 
