@@ -26,7 +26,7 @@ Welcome to the Docmint AI Functionality Library readme! This library offers powe
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/ychAlbert/AI-components.git
+git clone https://github.com/ychAlbert/docmint-AI-applications.git
 ```
 
 Then you can run:
